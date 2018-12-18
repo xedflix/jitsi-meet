@@ -42,7 +42,8 @@ deploy-appbundle:
 		$(BUILD_DIR)/dial_in_info_bundle.min.map \
 		$(BUILD_DIR)/alwaysontop.min.js \
 		$(BUILD_DIR)/alwaysontop.min.map \
-		$(OUTPUT_DIR)/analytics-ga.js \
+		$(BUILD_DIR)/analytics-ga.js \
+		$(BUILD_DIR)/analytics-amplitude.js \
 		$(DEPLOY_DIR)
 
 deploy-lib-jitsi-meet:
